@@ -44,7 +44,7 @@ label3 = "Username,Total Post,Total Likes,Average Like,Total Comment,Average Com
 h.write(label3)
 
 #Seting Output4
-output_name4 = "tb_user_keywords.csv"
+output_name4 = "tb_user_keywords.txt"
 z = open(output_name4, "w")
 label4 = "Username,PostID,Caption,Keyword,Interest\n"
 z.write(label4)
@@ -119,7 +119,7 @@ for index, row in convo.iterrows():
 	for i in mydict:
 		if i in caption:
 			post.append(mydict[i])
-			isi = (str(username) + "," + str(post_id) + "," + str(caption) + "," + str(i) + "," + str(mydict[i]) + "\n")
+			isi = (str(username) + ',"' + str(post_id) + '",' + str(caption) + "," + str(i) + "," + str(mydict[i]) + "\n")
 			z.write(isi)
 #	label4 = "Username,PostID,Caption,Keyword,Interest\n"
 	#Sebagai counter. atau perhitungan jumlah berapa travel, berapa culinary, berapa musik
@@ -127,19 +127,19 @@ for index, row in convo.iterrows():
 	post = []
 	total_keyword = counter['traveling'] + counter['fashion'] + counter['culinary'] + counter['music']
 	try:
-		traveling = float("{0:.2f}".format(counter['traveling'] / total_keyword)) 
+		traveling =  counter['traveling'] / total_keyword
 	except:
 		traveling = 0
 	try:
-		fashion = float("{0:.2f}".format(counter['fashion'] / total_keyword)) 
+		fashion = counter['fashion'] / total_keyword
 	except:
 		fashion = 0
 	try:
-		culinary = float("{0:.2f}".format(counter['culinary'] / total_keyword)) 
+		culinary =  counter['culinary'] / total_keyword
 	except:
 		culinary = 0
 	try:
-		music = float("{0:.2f}".format(counter['music'] / total_keyword)) 
+		music =  counter['music'] / total_keyword
 	except:
 		music = 0
 
