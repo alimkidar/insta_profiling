@@ -13,15 +13,17 @@ Kebutuhan:
 Pengaturan untuk "lib2.csv":
 1. Pastikan Header untuk keyword adalah "keywords"
 2. Pastikan Header untuk kategori/interest adalah "interest"
-3. Keyword tidak case sensitive
-4. Keyword tidak bisa menegnali apabila ada typo (salah ketik). Pastikan Keyword sudah benar
-5. Pastikan interest nya adalah salah satu dari "Music", "Culinary", "Traveling", dan "Fashion"
+3. Simbol ",/() akan dihapus dari keyword
+4. Keyword tidak case sensitive
+5. Keyword tidak bisa menegnali apabila ada typo (salah ketik). Pastikan Keyword sudah benar
+6. Pastikan interest nya adalah salah satu dari "Music", "Culinary", "Traveling", dan "Fashion"
 
 Pengaturan untuk "convo.csv":
 1. Pastikan Header untuk username adalah "username"
 2. Pastikan Header untuk caption adalah "caption"
 3. Pastikan Header untuk jumlah like adalah "like_count"
 4. Pastikan Header untuk jumlah komen adalah "comment_count"
+5. Simbol , dan \u yang ada di caption akan dihapus
 
 
 Tata cara penggunaan:
