@@ -1,7 +1,5 @@
 # profiling
-Profiling for KOL Recruitment
-
-Dokumentasi Interest Matching KOL.
+Profiling for Instagram Caption.
 
 Kebutuhan:
 1. Python versi 3.x
