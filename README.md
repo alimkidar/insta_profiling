@@ -28,12 +28,13 @@ Tata cara penggunaan:
 1. Pastikan "Kebutuhan" sudah disiapkan
 2. Pastikan pengaturan untuk lib2.csv dan convo.csv sudah benar, dan berada dalam satu folder dengan skrip.
 3. Jalankan skrip "kol2.py". Bisa lewat CMD bisa langsung.
-4. Tunggu sampai prosesnya selesai. Akan ada 3 file output.
+4. Tunggu sampai prosesnya selesai. Akan ada 4 file output.
 
 Output:
 1. tb_convo_count_percent.csv (berisi tentang masing-masing convo/caption dengan persentase interest nya)
 2. tb_pivot_percent.csv (berisi tentang username dengan total percent interest nya, bisa dimasukan sebagai input Power BI)
 3. tb_user_statistics.csv (berisi tentang jumlah post*, komen*, follower, dan following setiap akun)
+4. tb_tb_user_keywords.csv (berisi tentang keyword yang cocok dengan convo)
 *dihitung berdasarkan data dari convo.csv
 
 Menambahkan keyword:
