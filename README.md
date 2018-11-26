@@ -27,8 +27,8 @@ Pengaturan untuk "convo.csv":
 Tata cara penggunaan:
 1. Pastikan "Kebutuhan" sudah disiapkan
 2. Pastikan pengaturan untuk lib2.csv dan convo.csv sudah benar, dan berada dalam satu folder dengan skrip.
-3.1 Jalankan skrip "kol2.py" langsung dengan melakukan double-click pada skrip tersebut.
-3.2 atau dapat menjalankan skrip "kol2.py" melalui CMD. Caranya, masuk dulu ke direktori skrip tersebut lalu ketik "python kol2.py" dan tekan enter.
+3.1. Jalankan skrip "kol2.py" langsung dengan melakukan double-click pada skrip tersebut.
+3.2. atau dapat menjalankan skrip "kol2.py" melalui CMD. Caranya, masuk dulu ke direktori skrip tersebut lalu ketik "python kol2.py" dan tekan enter.
 4. Tunggu sampai prosesnya selesai. Akan ada 3 file output.
 
 Output:
