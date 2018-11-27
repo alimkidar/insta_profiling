@@ -1,6 +1,9 @@
 # profiling
 Profiling for Instagram Caption.
 
+#Update 27/11/2018
+  - Fix error instagram apabila username tidak ditemukan
+
 Kebutuhan:
 1. Python versi 3.x
 2. Python Library Pandas. Cara install: "pip install pandas" (https://pandas.pydata.org/)
