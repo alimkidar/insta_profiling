@@ -1,6 +1,7 @@
 # profiling
 Profiling for Instagram Caption.
 
+KOL versi 2 (kol2.py)
 #Update 27/11/2018
   - Fix error instagram apabila username tidak ditemukan
 
@@ -42,3 +43,7 @@ Output:
 
 Menambahkan keyword:
 1. Tambahkan langsung kedalam lib2.csv
+
+
+KOL versi 3 (kol3.py)
+1. Jumlah Interest bisa menyesuaikan dari lib2.csv
