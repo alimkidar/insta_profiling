@@ -1,5 +1,14 @@
 # profiling
 Profiling for Instagram Caption.
+KOL versi 3 (kol3.py)
+1. Jumlah Interest bisa menyesuaikan dari lib2.csv [dictionary]
+
+Cara pakai:
+1. Atur lib2.csv terlebih dahulu
+2. Pastikan convo.csv sudah benar
+3. Jalankan skrip nya :)
+
+
 
 KOL versi 2 (kol2.py)
 #Update 27/11/2018
@@ -45,5 +54,4 @@ Menambahkan keyword:
 1. Tambahkan langsung kedalam lib2.csv
 
 
-KOL versi 3 (kol3.py)
-1. Jumlah Interest bisa menyesuaikan dari lib2.csv
+
